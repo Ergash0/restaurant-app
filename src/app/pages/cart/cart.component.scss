@@ -1,0 +1,46 @@
+.page { padding: 16px; max-width: 900px; margin: 0 auto; }
+.empty { padding: 12px; border: 1px dashed #ccc; border-radius: 12px; }
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.info { min-width: 220px; }
+.id { font-weight: 600; }
+.price { opacity: .85; }
+
+.qty {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.qty button {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+
+.remove {
+  border: 1px solid #f2b8b5;
+  background: #fff;
+  color: #b42318;
+  padding: 6px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  font-size: 18px;
+}

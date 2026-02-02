@@ -1,0 +1,6 @@
+.wrap { max-width: 420px; margin: 40px auto; padding: 0 16px; }
+.card { border: 1px solid #ddd; border-radius: 14px; padding: 16px; display: grid; gap: 10px; }
+input { padding: 10px 12px; border: 1px solid #ddd; border-radius: 10px; }
+button { padding: 10px 12px; border: 0; border-radius: 10px; cursor: pointer; }
+.hint { opacity: .7; margin: 0; }
+.err { color: #c0392b; margin: 0; }

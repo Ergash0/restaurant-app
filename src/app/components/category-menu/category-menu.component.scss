@@ -1,0 +1,10 @@
+.menu { display: flex; flex-direction: column; gap: 8px; }
+.item {
+  text-align: left;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+.item.active { border-color: #999; font-weight: 600; }
